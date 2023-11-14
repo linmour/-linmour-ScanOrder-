@@ -1,10 +1,10 @@
 /*
  Navicat Premium Data Transfer
 
- Source Server         : 43.136.73.159
+ Source Server         : 127.0.0.1
  Source Server Type    : MySQL
  Source Server Version : 50736
- Source Host           : 43.136.73.159:3306
+ Source Host           : 127.0.0.1:3306
  Source Schema         : lsc_system
 
  Target Server Type    : MySQL
@@ -164,7 +164,7 @@ CREATE TABLE `system_merchant`  (
 -- ----------------------------
 -- Records of system_merchant
 -- ----------------------------
-INSERT INTO `system_merchant` VALUES (1, '林仕成', '1', '$2a$10$4i/zO70zlfBBP8slBhP2ROTj5eC0hZ76k7ohWbDyygbQydEL2aq1e', 'http://43.136.73.159:9000/linmourscanorder/idCard/1.png', '350181200401281852', 1, 1, '2', 'http://43.136.73.159:9000/linmourscanorder/avatar/1.jpeg', NULL, '2023-07-18 04:58:28', '2023-10-14 12:48:00', 0);
+INSERT INTO `system_merchant` VALUES (1, '林某', '1', '$2a$10$4i/zO70zlfBBP8slBhP2ROTj5eC0hZ76k7ohWbDyygbQydEL2aq1e', 'http://127.0.0.1:9000/linmourscanorder/idCard/1.png', '350181200401281895', 1, 1, '2', 'http://127.0.0.1:9000/linmourscanorder/avatar/1.jpeg', NULL, '2023-07-18 04:58:28', '2023-10-14 12:48:00', 0);
 INSERT INTO `system_merchant` VALUES (2, '1', '2', '$2a$10$4i/zO70zlfBBP8slBhP2ROTj5eC0hZ76k7ohWbDyygbQydEL2aq1e', '', '1', 1, 1, '1', '1', NULL, '2023-07-22 04:10:51', '2023-07-22 04:10:51', 0);
 
 -- ----------------------------
